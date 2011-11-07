@@ -11,7 +11,7 @@
 <?php slot('a-breadcrumb', '') ?>
 
 <?php // Subnav is removed for the home page template because it is redundant ?>
-<?php slot('a-subnav', '') ?>
+
 
 <?php a_slot('home-banner',
 'aSlideshow', array(

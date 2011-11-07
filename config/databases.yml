@@ -4,9 +4,9 @@ all:
   doctrine:
     class:        sfDoctrineDatabase
     param:
-      dsn:        mysql:dbname=pprl;host=localhost
-      username: pprl
-      password: pprl
+      dsn:        mysql:dbname=rbwords_dev;host=localhost
+      username: dev
+      password: dev
       # You need these for non-latin character sets and full I18N
       encoding: utf8
       attributes:
@@ -18,9 +18,9 @@ test:
   doctrine:
     class:        sfDoctrineDatabase
     param:
-      dsn:        mysql:dbname=pprl;host=localhost
-      username: pprl
-      password: pprl
+      dsn:        mysql:dbname=rbwords_dev;host=localhost
+      username: dev
+      password: dev
       # You need these for non-latin character sets and full I18N
       encoding: utf8
       attributes:

@@ -49,7 +49,7 @@ all:
 
 
     ### Apostrophe Global Toolbar 
-    persistent_global_toolbar: true   # Set to false if you want to hide the global toolbar to logged-out visitors
+    persistent_global_toolbar: false   # Set to false if you want to hide the global toolbar to logged-out visitors
     
     global_button_order:              # (Re-order here to change the button order in the global toolbar)  
       - blog
@@ -108,7 +108,7 @@ all:
     use_bundled_layout: false                 # Set to true to use the layout file bundled with Apostrophe
 
     ### Apostrophe Site Title
-    title_prefix: 'PPRL | '
+    title_prefix: 'RBWords | '
     title_suffix: ''
 
     ### Apostrophe Pages 
